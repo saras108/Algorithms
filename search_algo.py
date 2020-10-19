@@ -253,7 +253,12 @@ def exponantional_search(list , num):
 
 
 #Ternary Search
-#this search is similer to binary search having 2 mid-points.
+#this search is similer to binary search having 2 mid-points, it have time complexity of O(log base 3 n)
+#0 iteration-> 3^0 = 1
+#1 iteration-> 3^1 = 3
+#0 iteration-> 3^4 = 9
+#0 iteration-> 3^3 = 27
+#n iteration-> 3^n = 3^n
 
 def ternary_search(list , num , start , end):
     if(start > end):
